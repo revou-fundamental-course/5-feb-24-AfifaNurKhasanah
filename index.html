@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu Celcius / Fahrenheit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="mainElement">
+    <center><h1>Kalkulator Suhu Celcius / Fahrenheit</h1>
+    <h4>Celcius</h4>
+    <input type="number" id="celsius" placeholder="Celsius" name="c" value="" />
+    <h4>Fahrenheit</h4>
+    <input type="number" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+
+<button id="convert">Convert</button>
+<button id="clear">Reset</button>
+<button id="reverse">Reverse</button>
+<script src="js/script.js">
+    debugger;
+</script> 
+
+<div class="formula-note">
+    <h3 id="conversion-title">Cara Conversi Dari Celcius(&deg;C) Ke Fahrenheit(&deg;F)</h3>
+    <p id="conversion-text">
+        Suhu <span class="superscript">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="superscript">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32
+        <br><br>
+        S<span class="subscript">(&deg;F)</span> = (S<span class="subscript">(&deg;S)</span> x 9/5) + 32
+        <br><br>
+        atau
+        <br><br>
+        S<span class="subscript">(&deg;F)</span> = (S<span class="subscript">(&deg;S)</span> x 1.8) + 32
+    </p>
+</div>
+<div class="formula-note">
+    <h3 id="conversion-title">Cara Conversi Dari Fahrenheit(&deg;F) Ke Celcius(&deg;C)</h3>
+    <p id="conversion-text">
+        Suhu <span class="superscript">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="superscript">S</span> dalam derajat Celcius (&deg;C) dikurangi 32, dikali 5/9
+        <br><br>
+        S<span class="subscript">(&deg;C)</span> = (S<span class="subscript">(&deg;F)</span> - 32) x 5/9
+    </p>
+</div>
+</center>
+</main>  
+</body>
+</html>
